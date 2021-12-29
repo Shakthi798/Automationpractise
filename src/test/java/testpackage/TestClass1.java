@@ -11,6 +11,8 @@ public class TestClass {
 	ObjectClass select;
 	DressesPage Dp;
 	int random = new Random().nextInt(5001);
+	int random1 = new Random().nextInt(5005);
+
 
 	public TestClass() {
 		submit = new ObjectClass();
