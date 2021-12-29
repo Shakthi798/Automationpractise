@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113719" started-at="2021-12-28T07:27:41Z" finished-at="2021-12-28T07:29:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="113719" started-at="2021-12-28T07:27:41Z" finished-at="2021-12-28T07:29:34Z">
+      <class name="testpackage.TestDresspage">
+        <test-method status="PASS" signature="verifySizeBlockisDisplayed1()[pri:0, instance:testpackage.TestDresspage@635572a7]" name="verifySizeBlockisDisplayed1" duration-ms="11487" started-at="2021-12-28T07:28:36Z" finished-at="2021-12-28T07:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySizeBlockisDisplayed1 -->
+        <test-method status="PASS" signature="verifyProductCount2()[pri:0, instance:testpackage.TestDresspage@635572a7]" name="verifyProductCount2" duration-ms="228" started-at="2021-12-28T07:28:48Z" finished-at="2021-12-28T07:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCount2 -->
+        <test-method status="PASS" signature="verifyProductAddedtoCart3()[pri:0, instance:testpackage.TestDresspage@635572a7]" name="verifyProductAddedtoCart3" duration-ms="12850" started-at="2021-12-28T07:28:48Z" depends-on-methods="testpackage.TestDresspage.verifySizeBlockisDisplayed1" finished-at="2021-12-28T07:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedtoCart3 -->
+      </class> <!-- testpackage.TestDresspage -->
+      <class name="testpackage.TestClass">
+        <test-method status="PASS" signature="verifyCatagoryTabs()[pri:0, instance:testpackage.TestClass@76012793]" name="verifyCatagoryTabs" duration-ms="250" started-at="2021-12-28T07:27:41Z" finished-at="2021-12-28T07:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCatagoryTabs -->
+        <test-method status="PASS" signature="verifyNavigatedCorespondingtab()[pri:0, instance:testpackage.TestClass@76012793]" name="verifyNavigatedCorespondingtab" duration-ms="48420" started-at="2021-12-28T07:27:41Z" finished-at="2021-12-28T07:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigatedCorespondingtab -->
+        <test-method status="PASS" signature="verifyNewsLetterSuccessfulregisterdAlert()[pri:0, instance:testpackage.TestClass@76012793]" name="verifyNewsLetterSuccessfulregisterdAlert" duration-ms="6762" started-at="2021-12-28T07:28:29Z" finished-at="2021-12-28T07:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewsLetterSuccessfulregisterdAlert -->
+      </class> <!-- testpackage.TestClass -->
+      <class name="testpackage.TestProductDetailpage">
+        <test-method status="PASS" signature="verifyTweetShareinProductDetailspage()[pri:0, instance:testpackage.TestProductDetailpage@79d94571]" name="verifyTweetShareinProductDetailspage" duration-ms="33582" started-at="2021-12-28T07:29:01Z" finished-at="2021-12-28T07:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTweetShareinProductDetailspage -->
+        <test-method status="PASS" signature="verifyProductDiscriptionProductDetailspage()[pri:0, instance:testpackage.TestProductDetailpage@79d94571]" name="verifyProductDiscriptionProductDetailspage" duration-ms="52" started-at="2021-12-28T07:29:34Z" depends-on-methods="testpackage.TestProductDetailpage.verifyTweetShareinProductDetailspage" finished-at="2021-12-28T07:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDiscriptionProductDetailspage -->
+      </class> <!-- testpackage.TestProductDetailpage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
